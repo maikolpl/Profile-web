@@ -1,0 +1,35 @@
+.navbar{
+    background-color: #133F63;
+    margin: 0;
+
+}
+.navbarContainer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleNavbar{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.titleNavbar:hover{
+    cursor: pointer;
+}
+
+.navbarList{
+    gap: 100px;
+    display: flex;
+}
+
+.navbarListItem{
+    font-size: 25px;
+    list-style: none;
+}
+
+.navbarListItem:hover{
+    cursor: pointer;
+}

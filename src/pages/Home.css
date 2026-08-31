@@ -1,0 +1,220 @@
+.homeContainer {
+    width: 100%;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.home {
+    display: flex;
+    justify-content: flex-start;
+    padding: 80px 80px;
+    background-color: #f4f6f8;
+}
+
+.homeContent {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.homeTitle {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    color: #111827;
+}
+
+.homeTitle .highlight {
+    color: #2563eb; 
+}
+
+.homeSubtitle {
+    font-size: 20px;
+    color: #4b5563;
+    line-height: 1.6;
+}
+
+.homeButtons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btnPrimary {
+    background-color: #1e293b;
+    color: #ffffff;
+    border: 1px solid #1e293b;
+}
+
+.btnPrimary:hover {
+    background-color: #0f172a;
+}
+
+.btnSecondary {
+    background-color: transparent;
+    color: #1e293b;
+    border: none;
+    text-decoration: underline;
+}
+
+.btnSecondary:hover {
+    color: #2563eb;
+}
+
+.about {
+    padding: 80px 80px;
+    max-width: 900px;
+}
+
+.aboutTag {
+    font-size: 14px;
+    font-weight: 700;
+    color: #2563eb;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.aboutTitle {
+    font-size: 28px;
+    font-weight: 800;
+    color: #111827;
+    margin: 12px 0 24px 0;
+    letter-spacing: -0.5px;
+}
+
+.aboutText p {
+    font-size: 16px;
+    color: #4b5563;
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+
+
+footer {
+    background-color: #0f172a;
+    color: #94a3b8;
+    padding: 60px 80px 20px 80px;
+}
+
+.footerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #1e293b;
+}
+
+.footerBrand {
+    flex: 1.5;
+    min-width: 250px;
+}
+
+.footerLogo {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.footerDescription {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footerTitle {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.footerContact, .footerSocial {
+    flex: 1;
+    min-width: 200px;
+}
+
+.contactList, .socialList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contactList li, .socialList li {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contactList span {
+    color: #e2e8f0;
+    font-weight: 500;
+}
+
+.contactList p {
+    margin: 0;
+}
+
+.whatsAppIcon{
+    font-size: 20px !important;
+    margin-right: 5px;
+
+}
+
+.gitHubIcon{
+    font-size: 20px !important;
+    margin-right: 5px;
+}
+
+.footer a {
+    color: #38bdf8;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footerBottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #64748b;
+}
+
+@media (max-width: 768px) {
+    .hero, .about, .footer {
+        padding: 40px 20px;
+    }
+
+    .heroTitle {
+        font-size: 30px;
+    }
+
+    .footerContainer {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
