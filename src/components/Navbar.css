@@ -33,3 +33,8 @@
 .navbarListItem:hover{
     cursor: pointer;
 }
+
+.navbarLink{
+    text-decoration: none;
+    color: black;
+}
