@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import './Navbar.css'
+import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 
 
 export function Navbar(){
@@ -15,8 +16,17 @@ export function Navbar(){
                     <NavLink to='/certificados' className='navbarLink'>
                     <li className="navbarListItem">Certificados</li>
                     </NavLink>
+
+                        <li className="navbarListItem">
+                            <a 
+                            href='/Cv_Maikol_Plazas.pdf'
+                            download='Cv_Maikol_Plazas.pdf'
+                            className="btnDowloandCv">
+                            <PictureAsPdfIcon/>Descargar Hoja de Vida
+                            </a>
+                        </li>
                     
-                    <li className="navbarListItem">Descargar CV</li>
+                    
                 </ul>
             </div>
 
